@@ -1,0 +1,22 @@
+:root {
+  --fb-primary-color: #1877f2;
+  --fb-secondary-color: #42b72a;
+  --fb-desc-color: #dadde1;
+  --fb-bg-color: #f0f2f5;
+  --fb-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

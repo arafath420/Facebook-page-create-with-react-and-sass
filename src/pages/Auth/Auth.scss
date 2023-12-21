@@ -1,0 +1,116 @@
+.fb-auth-area {
+  background-color: var(--fb-bg-color);
+  padding-top: 62px;
+  padding-bottom: 92px;
+
+  .fb-auth-container {
+    width: 980px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+
+    .fb-auth-left {
+      margin-top: 70px;
+      img {
+        height: 106px;
+        margin-left: -28px;
+      }
+
+      h2 {
+        font-size: 25px;
+        width: 500px;
+        line-height: 32px;
+        margin-top: -15px;
+        font-weight: normal;
+      }
+    }
+
+    .fb-auth-right {
+      height: 456px;
+      width: 396px;
+      margin-top: 30px;
+
+      .login-fomr-area {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .login-form {
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+
+          input {
+            padding: 14px 16px;
+            border-radius: 6px;
+            font-size: 17px;
+            width: 330px;
+            border: 1px solid var(--fb-desc-color);
+            transition: 0.3s;
+
+            &::placeholder {
+              color: rgb(165, 165, 165);
+            }
+
+            &:focus {
+              border: 1px solid var(--fb-desc-color);
+              outline: none !important;
+              &::placeholder {
+                color: var(--fb-desc-color);
+              }
+            }
+          }
+
+          button {
+            background-color: var(--fb-primary-color);
+            border: none;
+            border-radius: 6px;
+            font-size: 20px;
+            line-height: 48px;
+            color: #fff;
+            margin-bottom: 16px;
+            font-weight: 600;
+            cursor: pointer;
+          }
+        }
+        a {
+          font-size: 14px;
+          color: var(--fb-primary-color);
+          padding-bottom: 20px;
+          border-bottom: 1px solid var(--fb-desc-color);
+        }
+
+        .create-account-button {
+          button {
+            background-color: var(--fb-secondary-color);
+            border: none;
+            display: inline;
+            color: #fff;
+            border-radius: 6px;
+            font-size: 17px;
+            line-height: 48px;
+            padding: 0 16px;
+            margin-top: 16px;
+            margin-bottom: 10px;
+            font-weight: 600;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .create-page {
+        color: #1c1e21;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 28px;
+
+        a {
+          color: #000;
+          font-weight: 600;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
